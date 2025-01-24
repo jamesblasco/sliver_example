@@ -63,6 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
         slivers: [
           SliverAppBar(
             title: Text('Slivers Example'),
+            backgroundColor: theme.colorScheme.primaryContainer,
             collapsedHeight: 100,
             expandedHeight: 200,
           ),
@@ -146,13 +147,13 @@ class _MyHomePageState extends State<MyHomePage> {
           SliverLayoutBuilder(builder: (context, constraints) {
             final remainingPaintExtent = constraints.remainingPaintExtent;
             return SliverOpacity(
-              opacity: min(1, remainingPaintExtent / 600),
+              opacity: min(1, remainingPaintExtent / 800),
               sliver: SliverToBoxAdapter(
                 child: Container(
-                  height: 600,
+                  height: 800,
                   padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
                   decoration: ShapeDecoration(
-                    color: Theme.of(context).colorScheme.secondaryContainer,
+                    color: Theme.of(context).colorScheme.primary,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
@@ -167,7 +168,7 @@ class _MyHomePageState extends State<MyHomePage> {
             delegate: SliverChildListDelegate.fixed([
               Container(
                 height: 200,
-                color: theme.colorScheme.primary,
+                color: theme.colorScheme.secondaryContainer,
                 child: Center(
                   child: Text(
                     'Full size',
