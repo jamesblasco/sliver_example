@@ -1,16 +1,6 @@
 # sliver_example
 
-A new Flutter project.
+![ScreenRecording2025-04-04at11 10 07-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cf2b1bc0-92b1-4f0f-9607-8cb91c68ee1b)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://www.figma.com/slides/4actLlJixGDopUFmKiYPIb/Slivers-FlutterConnection?node-id=2044-2576&t=wZLQo5UeMWKdM5Av-1
